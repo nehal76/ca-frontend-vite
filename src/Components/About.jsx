@@ -1,13 +1,5 @@
-import React from 'react';
-import "../App.css";
-// import {useEffect} from 'react';
-import useScrollTop from '../Hooks/useScrollTop';
 
 export default function About() {
-  // Use Effect Hook
-  useScrollTop();
-  
-
   return (
     <>
       

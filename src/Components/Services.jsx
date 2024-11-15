@@ -1,11 +1,6 @@
-import React, { useEffect } from "react";
-import '../../App.css';
-import styles from './Services.css';
+import './css/Services.css';
 
 export default function Services() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   const services = [
     "AUDIT & ASSURANCE SERVICES",
@@ -24,12 +19,12 @@ export default function Services() {
 
   return (
     <div className="container">
-    <div className={styles.container}>
-      <div className={styles.cardGrid}>
+    <div className='container'>
+      <div className='cardGrid'>
         {services.map((service, index) => (
-          <div key={index} className={styles.card}>
-            <div className={styles.cardBody}>
-              <h5 className={styles.cardTitle}>{service}</h5>
+          <div key={index} className='card'>
+            <div className='cardBody'>
+              <h5 className='cardTitle'>{service}</h5>
             </div>
           </div>
         ))}

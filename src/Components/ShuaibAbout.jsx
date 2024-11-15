@@ -1,11 +1,7 @@
 import logo from '../assets/logoCA.png';
-import useScrollTop from '../Hooks/useScrollTop'; 
 
 
 export default function About_shuaib() {
-  // Use effect Hook
-  useScrollTop();
-  
   return (
     <>
     <div className="container about-shuaib">
