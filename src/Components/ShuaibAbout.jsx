@@ -1,6 +1,4 @@
-import React from 'react'
-import logo from "./CA.jpg";
-// custome Hook--------
+import logo from '../assets/logoCA.png';
 import useScrollTop from '../Hooks/useScrollTop'; 
 
 
@@ -12,7 +10,6 @@ export default function About_shuaib() {
     <>
     <div className="container about-shuaib">
       <div className="profile-image">
-        {/* <img src="https://i.imgur.com/Z8Xz7mK.jpg" alt="Avinash Gupta" /> */}
         <img src={logo} alt="logo" className="logo" />
       </div>
       <div className="profile-info">

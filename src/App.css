@@ -1,36 +1,75 @@
-/* CSS for Navbar ------->>>>>>>>*/
-/* Header.css */
-
-.sticky-navbar {
-  position: sticky;
-  top: 0; /* Stick to the top of the viewport */
-  background-color: white; /* Ensures the background is visible */
-  z-index: 1000; /* Makes sure it stays above other content */
-  border-bottom: 1px solid #ddd; /* Optional: Adds a bottom border */
-}
-
-/* Example styling for the logo */
-.logo {
-  height: 40px; /* Adjust the size of the logo */
-  width: auto;
-}
-
-/* Ensure the body or parent container has appropriate padding/margin */
-body {
+/* Global Styles */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; /* Ensure padding doesn't affect layout */
 }
 
+body {
+  font-family: 'Montserrat', sans-serif; /* Global font */
+}
+
+/* Container */
 .container {
+  width: 100%;
+  max-width: 1200px; /* Set max-width for header content */
+  margin: 0 auto; /* Center align content */
   padding: 0;
+}
+
+/* Classes specific to Header.jsx */
+/* .sticky-navbar {
+  position: sticky;
+  top: 0; 
+  transition: background-color 0.3s, backdrop-filter 0.3s;
+  backdrop-filter: blur(5px);
+  background-color: rgba(245, 245, 245, 0.9);   
+  z-index: 1000; 
+  border-radius: 1em;
+}
+
+.title-subtitle {
+  margin-left: 1.5em;
+}
+
+.header-title {
+  color: "navy";
+  font-family: "Raleway", sans-serif;
+  font-size: '.8rem';
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link {
+  color: #003366 !important;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link.active {
+  background-color: #003366 !important; 
+  color: #f1f1f1 !important;
+}
+
+.nav-link:hover {
+  transform: scale(1.05); 
 }
 
 .logo {
   margin: auto;
   padding: 0px;
-  width: 100px;
+  width: auto;
   height: 80px;
-}
+  border-radius: .7em;
+} */
+/* ---------- */
+
+
 /* footer CSS */
 
 /* Add this to your CSS file */
@@ -89,12 +128,10 @@ body {
   background-color: #1ebea5;
 }
 
-/* Footer WhatsApp container styling */
 .footer-whatsapp {
   padding-top: 3%;
 }
 
-/* Flex container styling */
 .text-spacing {
   display: flex;
   column-gap: 0;

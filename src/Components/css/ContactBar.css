@@ -1,0 +1,100 @@
+/* Layout */
+.contactBar {
+  background-color: #333; 
+  padding: 1em 5%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  border-top: 3px solid #fff; 
+  border-radius: 1em;
+  margin: 0 auto;
+}
+
+/* Social Links */
+.socialIcons {
+  display: flex; 
+  justify-content: flex-start; 
+  gap: 1.25em; 
+}
+
+.socialIcons a {
+  color: #fff;
+  font-size: 1.25rem; 
+  padding: .5em;
+  border: 1px solid transparent; 
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.socialIcons a:hover {
+  background-color: #fff; 
+  color: #333; 
+  transform: scale(1.1);
+}
+
+/* Email and Phone */
+.contactInfo {
+  display: flex; 
+  align-items: center;
+  flex-grow: 1; 
+  justify-content: flex-end; 
+  gap: 30px;
+}
+
+.contactItem {
+  color: #fff; 
+  font-size: 1.1rem; 
+  display: flex; 
+  align-items: center; 
+  text-decoration: none; 
+  transition: color 0.3s ease; 
+}
+
+.contactItem:hover {
+  color: #ff9900; 
+  text-decoration: underline; 
+}
+
+.contactItem svg {
+  margin-right: .5em; 
+  font-size: 1.25rem; 
+}
+
+@media (max-width: 1024px) {
+  .contactBar {
+    padding: 1.25em 5%; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .socialIcons {
+    justify-content: center; 
+    margin-bottom: 1.25em;
+  }
+
+  .contactInfo {
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .contactBar {
+    padding: 1.5em 5%; 
+  }
+
+  .socialIcons a {
+    font-size: 1.25rem;
+    padding: .5em; 
+  }
+
+  .contactItem {
+    font-size: 1rem;
+  }
+
+  .contactItem svg {
+    font-size: 1rem;
+  }
+}

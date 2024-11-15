@@ -1,9 +1,8 @@
-import React from "react";
-import WhatsAppButton from "../WhatsAppButton";
+import WhatsAppButton from "./WhatsAppButton";
 import { NavLink } from "react-router-dom";
-import useScrollTop from "../../Hooks/useScrollTop";
 import { useState } from "react";
 import axios from "axios";
+import './css/Footer.css'
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -32,8 +31,6 @@ export default function Footer() {
     setEmail("");
     setQuery("");
   };
-
-  useScrollTop();
 
   return (
     <div className="container footer">
