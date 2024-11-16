@@ -4,7 +4,7 @@ import './css/Header.css';
 
 export default function Header() {  
   return (
-    <div className="container sticky-navbar">
+    <div className="sticky-navbar">
       <header className="d-flex flex-wrap justify-content-center align-items-center py-3 mb-0">
         <NavLink
           to="/"

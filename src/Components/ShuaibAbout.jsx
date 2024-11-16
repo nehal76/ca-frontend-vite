@@ -4,11 +4,11 @@ import logo from '../assets/logoCA.png';
 export default function About_shuaib() {
   return (
     <>
-    <div className="container about-shuaib">
+    <div className="d-flex flex-column align-items-center p-4 border-radius-4 about-shuaib">
       <div className="profile-image">
         <img src={logo} alt="logo" className="logo" />
       </div>
-      <div className="profile-info">
+      <div className='profile-info' style={{ textAlign: 'center', fontFamily: 'Montserrat' }}>
         <h2>Shuaib Akhter</h2>
         <h3>B.Com.(H), FCA</h3>
         <p>

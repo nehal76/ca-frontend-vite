@@ -5,9 +5,6 @@ export default function Center() {
     <>
       <div className='container_1'>
         <div className='card_1'>
-          <div className='cardIcon_1'>
-            <span className='iconBriefcase_1' />
-          </div>
           <div className='cardTitle_1'>TDS Return Filing</div>
           <div className='cardContent_1'>
             TDS Return Filing involves submitting a quarterly statement to the
@@ -18,9 +15,6 @@ export default function Center() {
         </div>
 
         <div className='card_1'>
-          <div className='cardIcon_1'>
-            <span className='iconWrench_1' />
-          </div>
           <div className='cardTitle_1'>TAXATION & REGULATORY SERVICES</div>
           <div className='cardContent_1'>
             Strategic tax planning and compliance to minimize liabilities and
@@ -30,9 +24,6 @@ export default function Center() {
         </div>
 
         <div className='card_1'>
-          <div className='cardIcon_1'>
-            <span className='iconBriefcase_1' />
-          </div>
           <div className='cardTitle_1'>NRI Income Tax Filing</div>
           <div className='cardContent_1'>
             NRI Income Tax Filing involves submitting tax returns for income
@@ -44,9 +35,6 @@ export default function Center() {
 
       <div className='container_1'>
         <div className='card_1'>
-          <div className='cardIcon_1'>
-            <span className='iconBriefcase_1' />
-          </div>
           <div className='cardTitle_1'>Investment & Financial Planning</div>
           <div className='cardContent_1'>
             Investment and financial planning involve setting financial goals

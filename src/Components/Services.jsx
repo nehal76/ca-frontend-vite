@@ -19,17 +19,15 @@ export default function Services() {
 
   return (
     <div className="container">
-    <div className='container'>
-      <div className='cardGrid'>
-        {services.map((service, index) => (
-          <div key={index} className='card'>
-            <div className='cardBody'>
-              <h5 className='cardTitle'>{service}</h5>
+      <div className='container'>
+        <div className='cardGrid'>
+          {services.map((service, index) => (
+            <div key={index} className='card'>
+                <h5 className='cardTitle'>{service}</h5>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
     </div>
   );
 }

@@ -5,19 +5,19 @@ export default function ContactBar() {
   return (
     <div className="contactBar">
       <div className="socialIcons">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className='icon-bg-facebook'>
           <FaFacebookF />
         </a>
-        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className='icon-bg-twitter'>
           <FaTwitter />
         </a>
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className='icon-bg-linkedin'>
           <FaLinkedinIn />
         </a>
-        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className='icon-bg-youtube'>
           <FaYoutube />
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className='icon-bg-insta'>
           <FaInstagram />
         </a>
       </div>
