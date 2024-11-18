@@ -150,7 +150,7 @@ export default function Footer() {
 
         <div className="col-md-5 offset-md-1">
           <form onSubmit={handleSubmit} className="mx-2">
-            <h5 className="footer-subheadings">Connect By E-Mail</h5>
+            <h5 className="footer-subheadings">Book an Appointment</h5>
             <div className="d-flex flex-column flex-sm-row w-100 gap-2">
               <label
                 htmlFor="newsletter1"
