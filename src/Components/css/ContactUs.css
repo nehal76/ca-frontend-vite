@@ -1,0 +1,58 @@
+.contact-us {
+  margin-bottom: 5em;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 1.25em;
+  border-radius: .625em;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 300px; 
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  margin: 10px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25em;
+}
+
+.card-header h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.icon {
+  font-size: 1.8rem;
+  margin: 0 .5em .5em ;
+}
+
+.card-content {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0px 0px 15px rgba(144, 238, 144, 0.7); 
+}
+
+.card:hover .card-content {
+  transform: scale(1.05); 
+}
+
+.card-content b {
+  display: inline-block;
+  color: #003366;
+}

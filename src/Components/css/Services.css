@@ -1,0 +1,39 @@
+.container {
+  padding: 1.25em;
+}
+
+.card {
+  flex: 1 1 calc(25% - 20px); 
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  background-color: #ffffff; 
+  padding: 1.25em;
+  box-sizing: border-box;
+  transition: transform 0.3s, box-shadow 0.3s; 
+  text-align: center; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 20px; 
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(24, 206, 72, 0.2); 
+}
+
+.cardTitle {
+  font-family: Poppins;
+  font-size: 1rem; 
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 1 calc(33.333% - 20px);
+  }
+}

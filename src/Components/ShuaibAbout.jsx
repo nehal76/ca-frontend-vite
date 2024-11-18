@@ -1,21 +1,14 @@
-import React from 'react'
-import logo from "./CA.jpg";
-// custome Hook--------
-import useScrollTop from '../Hooks/useScrollTop'; 
+import logo from '../assets/logoCA.png';
 
 
 export default function About_shuaib() {
-  // Use effect Hook
-  useScrollTop();
-  
   return (
     <>
-    <div className="container about-shuaib">
+    <div className="d-flex flex-column align-items-center p-4 border-radius-4 about-shuaib">
       <div className="profile-image">
-        {/* <img src="https://i.imgur.com/Z8Xz7mK.jpg" alt="Avinash Gupta" /> */}
         <img src={logo} alt="logo" className="logo" />
       </div>
-      <div className="profile-info">
+      <div className='profile-info' style={{ textAlign: 'center', fontFamily: 'Montserrat' }}>
         <h2>Shuaib Akhter</h2>
         <h3>B.Com.(H), FCA</h3>
         <p>

@@ -1,14 +1,49 @@
-/* Add this to your CSS file */
+footer {
+  background-color: #003366;
+  font-family: "Raleway", sans-serif;
+}
 
-/* Footer.module.css */
+.footer-copyright {
+  color: #f1f1f1;
+  background-color: #003366;
+}
 
-/* WhatsApp button styling */
+.footer-subheadings {
+  color: #f1f1f1;
+  margin: 1em;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+   
+}
+
+.footer-nav-item {
+  font-size: 1rem;
+  font-weight: 300;
+  list-style-type: none;
+  
+}
+
+.footer-nav-link {
+  color: #b0a4a4 !important;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  
+}
+
+.footer-nav-link.active {
+  background-color: #003366 !important;
+  color: white !important;
+}
+
 .btnWhatsApp {
   display: inline-block;
   padding: 10px 20px;
   font-size: 13px;
   color: white;
-  background-color: #25D366; /* WhatsApp green */
+  background-color: #25D366; 
   border: none;
   border-radius: 5px;
   text-align: center;
@@ -20,26 +55,23 @@
   background-color: #1ebea5;
 }
 
-/* Footer WhatsApp container styling */
 .footerWhatsApp {
   padding: 0;
   margin: 0;
   padding-top: 3%;
 }
 
-/* Image styling */
 .image1 {
   width: 200px;
   height: 550px;
 }
 
-/* WhatsAppButton.module.css */
 .btnWhatsApp {
   display: inline-block;
   padding: 10px 20px;
   font-size: 13px;
   color: white;
-  background-color: #25D366; /* WhatsApp green */
+  background-color: #25D366; 
   border: none;
   border-radius: 5px;
   text-align: center;
