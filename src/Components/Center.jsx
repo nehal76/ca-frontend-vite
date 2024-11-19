@@ -1,6 +1,8 @@
 import './css/Center.css';
+import UseScrollTop from '../CustomHook/UseScrollTop';
 
 export default function Center() {
+  UseScrollTop();
   return (
     <>
       <div className='container_1'>

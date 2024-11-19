@@ -1,6 +1,8 @@
 import './css/Services.css';
+import UseScrollTop from '../CustomHook/UseScrollTop';
 
 export default function Services() {
+  UseScrollTop();
 
   const services = [
     "AUDIT & ASSURANCE SERVICES",

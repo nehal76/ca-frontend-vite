@@ -1,8 +1,11 @@
 import logoCA from '../assets/logoCA.png';
 import { NavLink } from "react-router-dom";
 import './css/Header.css';
+import UseScrollTop from '../CustomHook/UseScrollTop';
 
 export default function Header() {  
+
+  UseScrollTop();
   return (
     <div className="sticky-navbar">
       <header className="d-flex flex-wrap justify-content-center align-items-center py-3 mb-0">

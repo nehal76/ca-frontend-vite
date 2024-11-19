@@ -3,8 +3,11 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 import './css/Footer.css'
+import UseScrollTop from '../CustomHook/UseScrollTop';
 
 export default function Footer() {
+  UseScrollTop();
+  
   const [email, setEmail] = useState("");
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("");

@@ -1,7 +1,10 @@
 import { FaEnvelope, FaPhone } from 'react-icons/fa';
 import './css/ContactUs.css';
+import UseScrollTop from '../CustomHook/UseScrollTop';
 
 export default function Contactus() {
+  UseScrollTop();
+  
   return (
     <div className='contact-us container'>
       <div className='app-container'>

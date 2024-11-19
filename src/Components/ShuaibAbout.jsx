@@ -1,7 +1,9 @@
 import logo from '../assets/logoCA.png';
+import UseScrollTop from '../CustomHook/UseScrollTop';
 
 
 export default function About_shuaib() {
+  UseScrollTop();
   return (
     <>
     <div className="d-flex flex-column align-items-center p-4 border-radius-4 about-shuaib">

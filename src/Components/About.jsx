@@ -1,6 +1,8 @@
 import './css/About.css';
+import UseScrollTop from '../CustomHook/UseScrollTop';
 
 export default function About() {
+  UseScrollTop();
   return (
     <div className='about-container'>
       <h1  className='about-heading'>About Me</h1>
