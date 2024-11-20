@@ -63,3 +63,24 @@
     font-size: 0.95rem; 
   }
 }
+
+@media (max-width: 480px) {
+  .container_1 {
+    padding: 10px 0; /* Further reduce padding for very small screens */
+  }
+
+  .card_1 {
+    width: 48%; /* Ensure full width */
+    padding: 15px; /* Reduce padding within the card */
+  }
+
+  .cardTitle_1 {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+  }
+
+  .cardContent_1 {
+    font-size: 0.85rem; /* Smaller font size for better readability */
+    text-align: center;
+    font-weight: bold;
+  }
+}

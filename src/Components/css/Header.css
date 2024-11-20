@@ -86,3 +86,75 @@ h2 {
     background-color: #20562c;
     visibility: hidden;
 }
+
+/* @media (max-width: 480px){
+    .sticky-navbar{
+        padding: 10px;
+        font-size: 14px;
+    }
+} */
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    .sticky-navbar {
+      padding: 10px;
+    }
+  
+    .header-title {
+      font-size: 1.5rem; /* Reduce font size */
+    }
+  
+    .title-subtitle h2 {
+      font-size: 1rem; /* Adjust subtitle size */
+    }
+  
+    .nav {
+      display: flex;
+      flex-direction: column; /* Stack navigation items vertically */
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 5px 0; /* Add spacing between items */
+    }
+  
+    .logo {
+      width: 60px; /* Adjust logo size */
+      height: auto;
+    }
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 480px) {
+    .sticky-navbar {
+      padding: 5px;
+    
+    }
+  
+    .header-title {
+      font-size: 1.2rem; /* Further reduce font size */
+    }
+  
+    .title-subtitle h2 {
+      font-size: 0.9rem; /* Adjust subtitle size */
+    }
+  
+    .nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 3px 0; /* Reduce spacing between items */
+    }
+  
+    .logo {
+      width: 50px; /* Smaller logo size for mobile */
+      height: auto;
+    }
+  
+    .navbar-toggler {
+      display: block; /* Show the hamburger icon */
+    }
+  }
+  

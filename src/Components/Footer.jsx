@@ -7,7 +7,7 @@ import UseScrollTop from '../CustomHook/UseScrollTop';
 
 export default function Footer() {
   UseScrollTop();
-  
+
   const [email, setEmail] = useState("");
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("");
@@ -36,8 +36,9 @@ export default function Footer() {
   };
 
   return (
-    <footer>
+    <footer >
       <div className="row">
+        
         <div className="col-5 col-md-2">
           <h5 className="footer-subheadings">Page Links</h5>
           <ul className="footer-nav">
@@ -88,7 +89,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="col-5 col-md-2">
+        <div className="service_1 col-6 col-md-3">
           <h5 className="footer-subheadings">Services</h5>
           <ul className="footer-nav">
             <li className="footer-nav-item">
@@ -119,8 +120,8 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="col-1 col-md-2">
-          <h5 className="footer-subheadings">About Us</h5>
+        <div className="About_us_1 col-6 col-md-3">
+          <h5 className=" footer-subheadings">About Us</h5>
           <ul className="footer-nav">
             <li className="footer-nav-item">
               <a href="#" className="footer-nav-link">
@@ -148,6 +149,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+        
 
         {/* Query Form ---------------->>>>>>>>>>>>>>>>>*/}
 
@@ -183,7 +185,7 @@ export default function Footer() {
             </div>
             <div className="footer-whatsapp">
               <WhatsAppButton
-                phoneNumber="+91 8800721984"
+                phoneNumber="918800721984"
                 message="Hello, I need support!"
               />
             </div>

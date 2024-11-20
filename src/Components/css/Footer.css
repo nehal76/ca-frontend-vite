@@ -1,36 +1,43 @@
 footer {
   background-color: #003366;
   font-family: "Raleway", sans-serif;
+  padding: 20px;
 }
 
+/* Footer Copyright */
 .footer-copyright {
   color: #f1f1f1;
   background-color: #003366;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.875rem;
 }
 
+/* Footer Subheadings */
 .footer-subheadings {
   color: #f1f1f1;
   margin: 1em;
+  font-size: 1.2rem; /* Default size for larger screens */
 }
 
+/* Footer Navigation */
 .footer-nav {
   display: flex;
   flex-direction: column;
-   
+  gap: 10px;
+  padding: 10px;
 }
 
 .footer-nav-item {
   font-size: 1rem;
   font-weight: 300;
   list-style-type: none;
-  
 }
 
 .footer-nav-link {
   color: #b0a4a4 !important;
   text-decoration: none;
   transition: color 0.3s ease, background-color 0.3s ease;
-  
 }
 
 .footer-nav-link.active {
@@ -38,12 +45,13 @@ footer {
   color: white !important;
 }
 
+/* WhatsApp Button */
 .btnWhatsApp {
   display: inline-block;
   padding: 10px 20px;
   font-size: 13px;
   color: white;
-  background-color: #25D366; 
+  background-color: #25D366;
   border: none;
   border-radius: 5px;
   text-align: center;
@@ -61,24 +69,68 @@ footer {
   padding-top: 3%;
 }
 
-.image1 {
-  width: 200px;
-  height: 550px;
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+  .footer-subheadings {
+    font-size: 1.1rem;  /* Slightly smaller font size for tablets */
+  }
+
+  .footer-nav {
+    gap: 15px;
+  }
+
+  .footer-nav-item {
+    font-size: 0.9rem; /* Smaller font size for mobile */
+  }
+
+  .footer-nav-link {
+    font-size: 0.9rem; /* Smaller font size for mobile */
+  }
+
+  .btnWhatsApp {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .footerWhatsApp {
+    padding-top: 2%;
+  }
+
+  /* Adjusting image for small screens */
+  .image1 {
+    width: 150px;
+    height: auto;  /* Adjust image size on mobile */
+  }
 }
 
-.btnWhatsApp {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 13px;
-  color: white;
-  background-color: #25D366; 
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+@media (max-width: 480px) {
+  .footer-subheadings {
+    font-size: 1rem;  /* Further reduce font size for very small screens */
+  }
+  .About_us_1{
+    padding-left: 10px;
+  }
 
-.btnWhatsApp:hover {
-  background-color: #1ebea5;
+  .footer-nav {
+    gap: 12px;
+  }
+
+  .footer-nav-item {
+    font-size: 0.85rem; /* Further reduce font size */
+  }
+
+  .btnWhatsApp {
+    padding: 8px 14px;
+    font-size: 11px;
+  }
+
+  .footerWhatsApp {
+    padding-top: 1%;
+  }
+
+  /* Adjusting image for very small screens */
+  .image1 {
+    width: 120px;
+    height: auto;
+  }
 }

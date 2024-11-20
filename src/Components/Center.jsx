@@ -5,6 +5,7 @@ export default function Center() {
   UseScrollTop();
   return (
     <>
+      <div className='container'>
       <div className='container_1'>
         <div className='card_1'>
           <div className='cardTitle_1'>TDS Return Filing</div>
@@ -70,6 +71,7 @@ export default function Center() {
             sales, purchases, and tax paid to the GST portal.
           </div>
         </div>
+      </div>
       </div>
     </>
   );
